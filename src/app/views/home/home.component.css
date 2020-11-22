@@ -1,0 +1,47 @@
+.background{
+    background-color: rgb(245, 244, 244);
+    margin-top: 150px;
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-bottom: 50px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px rgb(170, 170, 170);
+    
+}
+
+.tela-login{
+    justify-content: center;
+    display: flex;
+    padding-top: 15%;
+}
+
+.welcome{
+    padding-left: 28%;
+}
+
+.btn-primary{
+    width: 250px;
+}
+
+.tam-linha-email{
+    width: 250px;
+}
+
+.tam-linha-senha{
+    width: 215px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 85px;
+}
+  
+#img_circular {
+    border-radius: 60px;    
+}

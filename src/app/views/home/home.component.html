@@ -1,0 +1,39 @@
+<div fxLayout="row" fxLayoutAlign="center center" class="background">
+<div class="tela-login">
+    <form class="login">
+        <section class="title">
+            <div class="img-user">
+                <img src="http://arquivo.devmedia.com.br/artigos/Joel_Rodrigues/Microartigos/Border-radius/avatar-border-radius.png" id="img_circular">
+            </div>
+            <h2 class="welcome">ACESSAR</h2>
+            <h5 class="hint">Use seu e-mail e senha para efetuar o login</h5>
+        </section>
+        <div class="login-group">
+            <clr-select-container>
+                <label class="clr-sr-only">User Role</label>
+                <select clrSelect name="type">
+                    <option value="local">Usuário local</option>
+                    <option value="admin">Administrador</option>
+                </select>
+            </clr-select-container>
+            <clr-input-container>
+                <label class="clr-sr-only">E-mail</label>
+                <input class="tam-linha-email" type="text" name="email" clrInput placeholder="E-mail"/>
+            </clr-input-container>
+            <clr-password-container>
+                <label class="clr-sr-only">Senha</label>
+                <input class="tam-linha-senha" type="password" name="senha" clrPassword placeholder="Senha" />
+            </clr-password-container>
+            <clr-checkbox-wrapper>
+                <label>Lembrar-me</label>
+                <input type="checkbox" name="rememberMe" clrCheckbox />
+            </clr-checkbox-wrapper>
+            
+            <button type="submit" class="btn btn-primary">ACESSAR</button><br>
+            <hr class="solid">
+            <a href="javascript://" class="signup">Não possui acesso? CADASTRE-SE AQUI.</a>
+        </div>
+    </form>
+</div>
+</div>
+
